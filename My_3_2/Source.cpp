@@ -4,10 +4,10 @@ using namespace std;
 
 int main() {
 	setlocale(LC_ALL, "Rus");
-	cout << "Введите строку: ";
+	cout << "Р’РІРµРґРёС‚Рµ СЃС‚СЂРѕРєСѓ: ";
 	string str,str2 = "";
 	cin >> str;
-	string str_gl = "ауоиэыяюеёaeiouy";
+	string str_gl = "Р°СѓРѕРёСЌС‹СЏСЋРµС‘aeiouy";
 
 	for (int i = 0; i < str.length(); i++) 
 		for (int j = 0; j < str_gl.length(); j++)
@@ -15,7 +15,7 @@ int main() {
 				str2 += str[i];
 
 
-	cout << "Все гласные буквы, присутствующие в строке: " << str2 << endl;
+	cout << "Р’СЃРµ РіР»Р°СЃРЅС‹Рµ Р±СѓРєРІС‹, РїСЂРёСЃСѓС‚СЃС‚РІСѓСЋС‰РёРµ РІ СЃС‚СЂРѕРєРµ: " << str2 << endl;
 	
 
 	return 0;
