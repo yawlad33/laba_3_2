@@ -1,0 +1,4 @@
+﻿  Source.cpp
+C:\Users\yawla\source\repos\My_3_2\My_3_2\Source.cpp(12,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\yawla\source\repos\My_3_2\My_3_2\Source.cpp(13,21): warning C4018: <: несоответствие типов со знаком и без знака
+  My_3_2.vcxproj -> C:\Users\yawla\source\repos\My_3_2\Debug\My_3_2.exe
